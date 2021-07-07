@@ -216,7 +216,7 @@ body {
 }
 .section-3 .partners h1 {
   font-family: ov-bold;
-  font-size: 78px;
+  font-size: 16vw;
   text-transform: uppercase;
   position: relative;
 }
@@ -312,7 +312,7 @@ body {
 
   .section-2 h1 {
     margin-top: 0px;
-    font-size: 50px;
+    font-size: 16vw;
   }
   .section-2 p {
     width: auto;
@@ -327,7 +327,7 @@ body {
   }
 
   .section-3 h1 {
-    font-size: 50px;
+    font-size: 16vw;
   }
 
   .section-4 .para {
