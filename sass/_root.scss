@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+$bg-prime: #FAF7F0;
+
+@font-face{
+	font-family: 'ov-bold';
+	font-weight: 800;
+	src: url('./../fonts/OV-Bold.ttf');
+}
+
+@font-face{
+	font-family:'ov-reg';
+	font-weight: 100;
+	src: url('./../fonts/OV-Regular.ttf');
+}
+
+body{
+	font-family: ov-reg;
+	background-color: $bg-prime;
+	overflow-x: hidden;
+}
+@mixin sm{
+	@media (max-width: 578px){
+		@content;
+	}
+}
+@mixin md{
+	@media (max-width: 768px){
+		@content;
+	}
+}
+@mixin lg{
+	@media (max-width: 992px){
+		@content;
+	}
+}
